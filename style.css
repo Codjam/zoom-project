@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://media.giphy.com/media/l3gE1ADEND6W7u6w7y/giphy.gif");
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+#container {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+  border-radius: 250px;
+}
+
+img {
+  transform-origin: center center;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 250px;
+}
