@@ -9,6 +9,8 @@ container.addEventListener("mousemove", (e) => {
   img.style.transform = "scale(2)";
 });
 
+square.addEventListener('touchover', () => setColor(square))
+
 container.addEventListener("mouseleave", () => {
   img.style.transformOrigin = "center center";
   img.style.transform = "scale(1)";
